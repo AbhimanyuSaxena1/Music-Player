@@ -1,0 +1,119 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: white;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 85%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 5vw 10vw;
+}
+
+#left{
+    height: 100%;
+    width: 45%;
+    background-color: rgb(114, 114, 114);
+    background-image: url(https://a10.gaanacdn.com/gn_img/albums/Rz4W8vKxD5/4W87PAOO3x/size_l.jpg);
+    background-position: center;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+#right{
+    height: 100%;
+    width: 55%;
+    background-color: black;
+    padding: 0px 3vw;
+    /* background-color: rgb(196, 215, 255); */
+    
+}
+#right h3{
+    font-size: 40px;
+    font-weight: 500;
+    /* margin-bottom: 20px; */
+}
+#song-box{
+    /* background-color: aqua; */
+    height: 75%;
+    width: 100%;
+    padding: 20px 0;
+}
+.song-card{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+    border-top: 1px solid rgb(114, 114, 114);
+    padding: 12px 15px;
+    align-items: center;
+    
+}
+
+.song-card:hover{
+    background-color: rgba(99, 99, 99, 0.377);
+}
+.part-1 img{
+    height: 55px;
+    width: 55px;
+    object-fit: cover ;
+    margin-right: 20px;
+
+}
+.song-card:nth-last-child(1)
+{
+    margin-bottom: 12px;
+    border-bottom: 1px solid rgb(114, 114, 114);
+    
+}
+
+.song-card .part-1{
+    display: flex;
+    font-size: 10px;
+    font-weight: 549;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    align-items: center;
+}
+.song-card h6{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.song-card .song-duration{
+    align-items: end;
+}
+#player{
+    height: 15%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    /* background-color: aqua; */
+}
+
+#player h3 {
+    
+    padding: 23px 23px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(63, 62, 62);
+    
+}
+#player h3 i{
+    font-size: 30px;
+    color: white;
+}
+#player h3:active{
+    scale: 0.8;
+}
