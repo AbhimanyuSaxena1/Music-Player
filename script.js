@@ -1,9 +1,9 @@
 var flag = 0;
 var arr = [
-    {name:"RAABTA" , image:"https://pagalnew.com/coverimages/Raabta-Agent-Vinod-500-500.jpg" , url:"songs/Raabta (Agent Vinod)_128-(PagalWorld.Ink).mp3" , duration:"3:43" },
-    {name:"Ek Varri Aa" , image:"https://pagalworld.ink/siteuploads/thumb/sft7/3198_6_resize1x_200x200.webp" , url:"songs/Ik Vaari Aa (Raabta)-(PagalWorld.Ink).mp3" , duration:"3:45" },
-    {name:"Chokra Jawan Re" , image:"https://pagalworld.ink/siteuploads/thumb/sft17/8146_6_resize1x_200x200.webp" , url:"songs/Chokra Jawaan (Ishaqzaade)-(PagalWorld.Ink).mp3" , duration:"4:00" },
-    {name:"Ram Siya Ram" , image:"https://th.bing.com/th/id/OIP.CpcX8KmzL1KAGddThMS5WwHaHa?rs=1&pid=ImgDetMain" , url:"songs/Ram-Siya-Ram-(Adipurush)(PagalWorldl).mp3" , duration:"3:50" }
+    {name:"RAABTA" , image:"https://pagalnew.com/coverimages/Raabta-Agent-Vinod-500-500.jpg" , url:"Raabta (Agent Vinod)_128-(PagalWorld.Ink).mp3" , duration:"3:43" },
+    {name:"Ek Varri Aa" , image:"https://pagalworld.ink/siteuploads/thumb/sft7/3198_6_resize1x_200x200.webp" , url:"Ik Vaari Aa (Raabta)-(PagalWorld.Ink).mp3" , duration:"3:45" },
+    {name:"Chokra Jawan Re" , image:"https://pagalworld.ink/siteuploads/thumb/sft17/8146_6_resize1x_200x200.webp" , url:"Chokra Jawaan (Ishaqzaade)-(PagalWorld.Ink).mp3" , duration:"4:00" },
+    {name:"Ram Siya Ram" , image:"https://th.bing.com/th/id/OIP.CpcX8KmzL1KAGddThMS5WwHaHa?rs=1&pid=ImgDetMain" , url:"Ram-Siya-Ram-(Adipurush)(PagalWorldl).mp3" , duration:"3:50" }
 ];
 var audio = new Audio();
 var allSongs = document.querySelector("#all-songs");
